@@ -1,3 +1,5 @@
+# install packages first
+# install.packages("dplyr")
 # load libraries
 library(dplyr)
 
@@ -23,7 +25,7 @@ y_total   <- rbind(y_train, y_test)
 sub_total <- rbind(sub_train, sub_test) 
 
 # keep only measurements for mean and standard deviation 
-sel_features <- variable_names[grep(".*mean\\(\\)|std\\(\\)", features[,2], ignore.case = FALSE),]
+sel_features <- features[grep(".*mean\\(\\)|std\\(\\)", features[,2], ignore.case = FALSE),]
 x_total      <- x_total[,sel_features[,1]]
 
 # name columns
