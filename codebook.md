@@ -8,13 +8,13 @@
 
 ## Activity column has 6 types as listed below :
 
-* Bullet list
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
 ## Measurements :
 * Bullet list
