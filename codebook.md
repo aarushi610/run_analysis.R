@@ -7,8 +7,8 @@
 "subject": The subject ID
 
 ## Activity column has 6 types as listed below :
-Markup : * Bullet list
 
+* Bullet list
 WALKING
 WALKING_UPSTAIRS
 WALKING_DOWNSTAIRS
@@ -17,7 +17,7 @@ STANDING
 LAYING
 
 ## Measurements :
-Markup : * Bullet list
+* Bullet list
 
 "activity"
 "subject"
