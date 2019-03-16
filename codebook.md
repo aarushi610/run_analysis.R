@@ -1,13 +1,12 @@
-**Dataset description**
-# Dataset 
+# Dataset description 
 
 
-Identifiers -
+## Identifiers -
 
 "activity": The type of activity
 "subject": The subject ID
 
-Activity column has 6 types as listed below :
+## Activity column has 6 types as listed below :
 
 WALKING
 WALKING_UPSTAIRS
@@ -16,7 +15,7 @@ SITTING
 STANDING
 LAYING
 
-Measurements :
+## Measurements :
 
 "activity"
 "subject"
@@ -87,7 +86,7 @@ Measurements :
 "fBodyBodyGyroJerkMag-mean()"
 "fBodyBodyGyroJerkMag-std()"
 
-Variable units :
+## Variable units :
 
 Activity variable is factor type. Subject variable is integer type. All the other variables are numeric type.
 
